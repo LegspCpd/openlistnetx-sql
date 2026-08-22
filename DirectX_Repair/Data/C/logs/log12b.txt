@@ -1,0 +1,54 @@
+[3FC4:3350][2025-03-10T08:44:30]: Burn v3.6.3542.0, Windows v6.3 (Build 9600: Service Pack 0), path: C:\Users\zhangyue\Desktop\🐬\DirectX_Repair\Data\C\cp12\cp12b.exe, cmdline: '/quiet /repair /norestart /log "C:\Users\zhangyue\Desktop\🐬\DirectX_Repair\Data\C\logs\log12b.txt" -burn.unelevated BurnPipe.{6470390C-ECDD-4DA5-A02C-55308B14C979} {A8598490-509C-4164-8E65-1922C7D278B7} 15464'
+[3FC4:3350][2025-03-10T08:44:30]: Setting string variable 'WixBundleLog' to value 'C:\Users\zhangyue\Desktop\🐬\DirectX_Repair\Data\C\logs\log12b.txt'
+[3FC4:3350][2025-03-10T08:44:30]: Setting string variable 'WixBundleOriginalSource' to value 'C:\Users\zhangyue\Desktop\🐬\DirectX_Repair\Data\C\cp12\cp12b.exe'
+[3FC4:3350][2025-03-10T08:44:30]: Setting string variable 'WixBundleName' to value 'Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030'
+[3FC4:3350][2025-03-10T08:44:30]: Detect 2 packages
+[3FC4:3350][2025-03-10T08:44:30]: Detected package: vcRuntimeMinimum_x86, state: Absent, cached: None
+[3FC4:3350][2025-03-10T08:44:30]: Detected package: vcRuntimeAdditional_x86, state: Absent, cached: None
+[3FC4:3350][2025-03-10T08:44:30]: Condition 'VersionNT >= v6.0 OR (VersionNT = v5.1 AND ServicePackLevel >= 2) OR (VersionNT = v5.2 AND ServicePackLevel >= 1)' evaluates to true.
+[3FC4:3350][2025-03-10T08:44:30]: Detect complete, result: 0x0
+[3FC4:3350][2025-03-10T08:44:30]: Plan 2 packages, action: Install
+[3FC4:3350][2025-03-10T08:44:30]: Condition 'VersionNT > v6.2 OR (VersionNT = v6.2 AND (NTProductType = 1)) OR (VersionNT = v6.2 AND NOT (NTProductType = 1)) OR (VersionNT = v6.0 AND NOT (NTProductType = 1)) OR (VersionNT = v6.1 AND (NTProductType = 1)) OR (VersionNT = v6.1 AND NOT (NTProductType = 1)) OR (VersionNT = v6.0 AND (NTProductType = 1)) OR (VersionNT = v5.1) OR (VersionNT = v5.2 AND NOT (NTProductType = 1)) OR (VersionNT = v5.2 AND (NTProductType = 1))' evaluates to true.
+[3FC4:3350][2025-03-10T08:44:30]: Setting string variable 'WixBundleRollbackLog_vcRuntimeMinimum_x86' to value 'C:\Users\zhangyue\Desktop\🐬\DirectX_Repair\Data\C\logs\log12b_0_vcRuntimeMinimum_x86_rollback.txt'
+[3FC4:3350][2025-03-10T08:44:30]: Setting string variable 'WixBundleLog_vcRuntimeMinimum_x86' to value 'C:\Users\zhangyue\Desktop\🐬\DirectX_Repair\Data\C\logs\log12b_0_vcRuntimeMinimum_x86.txt'
+[3FC4:3350][2025-03-10T08:44:30]: Condition 'VersionNT > v6.2 OR (VersionNT = v6.2 AND (NTProductType = 1)) OR (VersionNT = v6.2 AND NOT (NTProductType = 1)) OR (VersionNT = v6.0 AND NOT (NTProductType = 1)) OR (VersionNT = v6.1 AND (NTProductType = 1)) OR (VersionNT = v6.1 AND NOT (NTProductType = 1)) OR (VersionNT = v6.0 AND (NTProductType = 1)) OR (VersionNT = v5.1) OR (VersionNT = v5.2 AND NOT (NTProductType = 1)) OR (VersionNT = v5.2 AND (NTProductType = 1))' evaluates to true.
+[3FC4:3350][2025-03-10T08:44:30]: Setting string variable 'WixBundleRollbackLog_vcRuntimeAdditional_x86' to value 'C:\Users\zhangyue\Desktop\🐬\DirectX_Repair\Data\C\logs\log12b_1_vcRuntimeAdditional_x86_rollback.txt'
+[3FC4:3350][2025-03-10T08:44:30]: Setting string variable 'WixBundleLog_vcRuntimeAdditional_x86' to value 'C:\Users\zhangyue\Desktop\🐬\DirectX_Repair\Data\C\logs\log12b_1_vcRuntimeAdditional_x86.txt'
+[3FC4:3350][2025-03-10T08:44:30]: Planned package: vcRuntimeMinimum_x86, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[3FC4:3350][2025-03-10T08:44:30]: Planned package: vcRuntimeAdditional_x86, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[3FC4:3350][2025-03-10T08:44:30]: Plan complete, result: 0x0
+[3FC4:3350][2025-03-10T08:44:30]: Apply begin
+[3C68:2F48][2025-03-10T08:44:31]: Creating a system restore point.
+[3C68:2F48][2025-03-10T08:44:31]: Created a system restore point.
+[3C68:2F48][2025-03-10T08:44:31]: Caching bundle from: 'C:\Users\zhangyue\AppData\Local\Temp\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\.be\vcredist_x86.exe' to: 'C:\ProgramData\Package Cache\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\vcredist_x86.exe'
+[3C68:2F48][2025-03-10T08:44:31]: Registering bundle dependency provider: {33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}, version: 11.0.61030.0
+[3C68:236C][2025-03-10T08:44:31]: Verified acquired payload: vcRuntimeMinimum_x86 at path: C:\ProgramData\Package Cache\.unverified\vcRuntimeMinimum_x86, moving to: C:\ProgramData\Package Cache\{BD95A8CD-1D9F-35AD-981A-3E7925026EBB}v11.0.61030\packages\vcRuntimeMinimum_x86\vc_runtimeMinimum_x86.msi.
+[3C68:236C][2025-03-10T08:44:31]: Verified acquired payload: cab54A5CABBE7274D8A22EB58060AAB7623 at path: C:\ProgramData\Package Cache\.unverified\cab54A5CABBE7274D8A22EB58060AAB7623, moving to: C:\ProgramData\Package Cache\{BD95A8CD-1D9F-35AD-981A-3E7925026EBB}v11.0.61030\packages\vcRuntimeMinimum_x86\cab1.cab.
+[3C68:236C][2025-03-10T08:44:31]: Verified acquired payload: vcRuntimeAdditional_x86 at path: C:\ProgramData\Package Cache\.unverified\vcRuntimeAdditional_x86, moving to: C:\ProgramData\Package Cache\{B175520C-86A2-35A7-8619-86DC379688B9}v11.0.61030\packages\vcRuntimeAdditional_x86\vc_runtimeAdditional_x86.msi.
+[3C68:236C][2025-03-10T08:44:31]: Verified acquired payload: cabB3E1576D1FEFBB979E13B1A5379E0B16 at path: C:\ProgramData\Package Cache\.unverified\cabB3E1576D1FEFBB979E13B1A5379E0B16, moving to: C:\ProgramData\Package Cache\{B175520C-86A2-35A7-8619-86DC379688B9}v11.0.61030\packages\vcRuntimeAdditional_x86\cab1.cab.
+[3C68:2F48][2025-03-10T08:44:31]: Applying execute package: vcRuntimeMinimum_x86, action: Install, path: C:\ProgramData\Package Cache\{BD95A8CD-1D9F-35AD-981A-3E7925026EBB}v11.0.61030\packages\vcRuntimeMinimum_x86\vc_runtimeMinimum_x86.msi, arguments: ' MSIFASTINSTALL="7" NOVSUI="1"'
+[3FC4:3350][2025-03-10T08:44:32]: Applied execute package: vcRuntimeMinimum_x86, result: 0x0, restart: None
+[3C68:2F48][2025-03-10T08:44:32]: Registering dependency: {33d1fd90-4274-48a1-9bc1-97e33d9c2d6f} on package provider: Microsoft.VS.VC_RuntimeMinimum_x86,v11, package: vcRuntimeMinimum_x86
+[3C68:2F48][2025-03-10T08:44:32]: Registering dependency: {33d1fd90-4274-48a1-9bc1-97e33d9c2d6f} on package provider: Microsoft.VS.VC_RuntimeMinimumVSU_x86,v11, package: vcRuntimeMinimum_x86
+[3C68:2F48][2025-03-10T08:44:32]: Applying execute package: vcRuntimeAdditional_x86, action: Install, path: C:\ProgramData\Package Cache\{B175520C-86A2-35A7-8619-86DC379688B9}v11.0.61030\packages\vcRuntimeAdditional_x86\vc_runtimeAdditional_x86.msi, arguments: ' MSIFASTINSTALL="7" NOVSUI="1"'
+[3FC4:3350][2025-03-10T08:44:33]: Applied execute package: vcRuntimeAdditional_x86, result: 0x0, restart: None
+[3C68:2F48][2025-03-10T08:44:33]: Registering dependency: {33d1fd90-4274-48a1-9bc1-97e33d9c2d6f} on package provider: Microsoft.VS.VC_RuntimeAdditional_x86,v11, package: vcRuntimeAdditional_x86
+[3C68:2F48][2025-03-10T08:44:33]: Registering dependency: {33d1fd90-4274-48a1-9bc1-97e33d9c2d6f} on package provider: Microsoft.VS.VC_RuntimeAdditionalVSU_x86,v11, package: vcRuntimeAdditional_x86
+[3FC4:3350][2025-03-10T08:44:33]: Apply complete, result: 0x0, restart: None, ba requested restart:  No
+[3FC4:3350][2025-03-10T08:44:33]: Shutting down, exit code: 0x0
+[3FC4:3350][2025-03-10T08:44:33]: Variable: NTProductType = 1
+[3FC4:3350][2025-03-10T08:44:33]: Variable: VersionNT = 6.3.0.0
+[3FC4:3350][2025-03-10T08:44:33]: Variable: WixBundleAction = 4
+[3FC4:3350][2025-03-10T08:44:33]: Variable: WixBundleElevated = 1
+[3FC4:3350][2025-03-10T08:44:33]: Variable: WixBundleInstalled = 0
+[3FC4:3350][2025-03-10T08:44:33]: Variable: WixBundleLog = C:\Users\zhangyue\Desktop\🐬\DirectX_Repair\Data\C\logs\log12b.txt
+[3FC4:3350][2025-03-10T08:44:33]: Variable: WixBundleLog_vcRuntimeAdditional_x86 = C:\Users\zhangyue\Desktop\🐬\DirectX_Repair\Data\C\logs\log12b_1_vcRuntimeAdditional_x86.txt
+[3FC4:3350][2025-03-10T08:44:33]: Variable: WixBundleLog_vcRuntimeMinimum_x86 = C:\Users\zhangyue\Desktop\🐬\DirectX_Repair\Data\C\logs\log12b_0_vcRuntimeMinimum_x86.txt
+[3FC4:3350][2025-03-10T08:44:33]: Variable: WixBundleName = Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030
+[3FC4:3350][2025-03-10T08:44:33]: Variable: WixBundleOriginalSource = C:\Users\zhangyue\Desktop\🐬\DirectX_Repair\Data\C\cp12\cp12b.exe
+[3FC4:3350][2025-03-10T08:44:33]: Variable: WixBundleProviderKey = {33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}
+[3FC4:3350][2025-03-10T08:44:33]: Variable: WixBundleRollbackLog_vcRuntimeAdditional_x86 = C:\Users\zhangyue\Desktop\🐬\DirectX_Repair\Data\C\logs\log12b_1_vcRuntimeAdditional_x86_rollback.txt
+[3FC4:3350][2025-03-10T08:44:33]: Variable: WixBundleRollbackLog_vcRuntimeMinimum_x86 = C:\Users\zhangyue\Desktop\🐬\DirectX_Repair\Data\C\logs\log12b_0_vcRuntimeMinimum_x86_rollback.txt
+[3FC4:3350][2025-03-10T08:44:33]: Variable: WixBundleTag = 
+[3FC4:3350][2025-03-10T08:44:33]: Variable: WixBundleVersion = 11.0.61030.0
+[3FC4:3350][2025-03-10T08:44:33]: Exit code: 0x0, restarting: No
